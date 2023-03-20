@@ -4,7 +4,7 @@
   "description": "This is a simple study about factory method.",
   "main": "main.ts",
   "scripts": {
-    "test": ""
+    "dev": "ts-node-dev --respawn --transpile-only src/main.ts"
   },
   "keywords": [
     "factory",
@@ -14,5 +14,11 @@
     "pattern"
   ],
   "author": "Carlos Magnani",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "tsc": "^2.0.4",
+    "typescript": "^5.0.2",
+    "ts-node-dev": "^1.1.8",
+    "tslint": "^5.12.1"
+  }
 }
